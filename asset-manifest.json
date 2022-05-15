@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/vertskater.github.io/memory-game/static/js/main.88cbceab.js",
+    "main.css": "/vertskater.github.io/memory-game/static/css/main.45442d28.css",
+    "main.js": "/vertskater.github.io/memory-game/static/js/main.773a2311.js",
     "index.html": "/vertskater.github.io/memory-game/index.html",
-    "main.88cbceab.js.map": "/vertskater.github.io/memory-game/static/js/main.88cbceab.js.map"
+    "main.45442d28.css.map": "/vertskater.github.io/memory-game/static/css/main.45442d28.css.map",
+    "main.773a2311.js.map": "/vertskater.github.io/memory-game/static/js/main.773a2311.js.map"
   },
   "entrypoints": [
-    "static/js/main.88cbceab.js"
+    "static/css/main.45442d28.css",
+    "static/js/main.773a2311.js"
   ]
 }
