@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #247ba0;
+  font-family: "Prompt", sans-serif;
+}
+.Game {
+  h1 {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+.score-board {
+  margin: 10px auto 0;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border: solid 2px #264653;
+  background-color: #fb8500;
+}
+.game-board {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .memory-card {
+    width: 280px;
+    height: 350px;
+    margin: 5px;
+    border: solid 2px #264653;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #fb8500;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 200ms ease-in, transform 100ms ease-in;
+    &:hover {
+      box-shadow: 5px 5px 3px black;
+      transform: translateY(-5px);
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
