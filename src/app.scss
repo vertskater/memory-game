@@ -20,14 +20,18 @@ body {
   text-align: center;
   width: 50%;
   border: solid 2px #264653;
-  background-color: #fb8500;
+  background-color: rgba(#fb8500, 1);
+  &.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
 }
 .game-board {
   padding: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
   .memory-card {
     width: 280px;
     height: 350px;
