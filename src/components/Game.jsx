@@ -19,7 +19,6 @@ export default function Game() {
     if (topPosition.top <= 0) {
       setSticky({ sticky: !sticky });
     }
-    console.log(window.innerHeight, topPosition.top);
   };
   //import game logic and data
   const [score, gameCards, play] = useGame();
