@@ -1,4 +1,4 @@
-A dynamic and interactive memory game built with **React** and **TypeScript**. The game fetches images and text from an external API and challenges users to click on unique cards without repeating clicks. Test your memory, track your score, and aim for the best score!
+A dynamic and interactive memory game built with **React** and **JavaScript**. The game fetches images and text from an external API and challenges users to click on unique cards without repeating clicks. Test your memory, track your score, and aim for the best score!
 
 ## 📝 Features
 
