@@ -18,4 +18,25 @@ A dynamic and interactive memory game built with **React** and **TypeScript**. T
 
 ## 🚀 Live Demo
 
-Check out the deployed project [here](#) (replace with your deployed URL).
+Check out the deployed project [here](https://memory-game-woad-psi.vercel.app/) 
+
+## 🔧 How It Works
+
+### Game Setup
+- On mounting, the app fetches images and text from the API.
+- Cards are displayed in a grid layout.
+
+### Game Logic
+1. When a user clicks a card, the app checks if it was already clicked.
+2. If the card was not clicked before:
+   - The current score increases.
+   - The cards shuffle.
+3. If the card was clicked again:
+   - The current score resets.
+   - The best score remains unchanged.
+
+### Shuffling
+- Cards are randomized using a shuffle function invoked after every click.
+
+### API Integration
+- The app fetches card data dynamically from an external API of your choice.
